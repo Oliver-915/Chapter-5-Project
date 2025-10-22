@@ -16,7 +16,7 @@ graph TD;
 
 #### Function Diagrams
 
-| `Main`    |               |  Oliver     |
+| `Menu`    |               |  Oliver     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
