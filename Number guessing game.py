@@ -1,3 +1,6 @@
+#Number guessing game
+#Oliver and Brycen
+
 def main():
     print("The Number Guessing Game")
     print("Main Menu")
@@ -19,15 +22,16 @@ def newgame():
     if range_change = Yes or yes:
         range()
     else: print("The range will be 1-1000")
-        
+    gamestart()
+
+def gamestart():
+    #gamestart here
 
 def range():
     numrange_min = 1
     numrange_max = 100
     numrange_min = int(input("Please enter the min number range, default is 1"))
     numrange_max = int(input("Please enter the max number range, default is 1000"))
-    
-    
 
 def exit():
     print("You are now exiting The Number Guessing Game:")
