@@ -1,4 +1,4 @@
-# Program Name
+# Number Guessing Game
 Oliver, Bricen
 
 ## <Number Guessing Game> Description
