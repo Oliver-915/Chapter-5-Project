@@ -8,10 +8,10 @@ Takes two inputs for names and the generates a random number between in a range 
 ```mermaid
 graph TD;
   Main-->Menu;
-  Main-->Get random;
+  Main-->Get_random;
   Main-->Player 1;
   Main-->Player 2;
-  Main-->Exit
+  Main-->Exit;
 ```
 
 #### Function Diagrams
