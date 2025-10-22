@@ -9,8 +9,8 @@ Takes two inputs for names and the generates a random number between in a range 
 graph TD;
   Main-->Menu;
   Main-->Get_random;
-  Main-->Player 1;
-  Main-->Player 2;
+  Main-->Player_1;
+  Main-->Player_2;
   Main-->Exit;
 ```
 
