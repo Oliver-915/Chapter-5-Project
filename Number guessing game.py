@@ -2,6 +2,9 @@
 #Oliver and Brycen
 
 def main():
+    menu()
+        
+def menu():
     print("The Number Guessing Game")
     print("Main Menu")
     print("Please choose one of the following")
@@ -26,12 +29,19 @@ def newgame():
 
 def gamestart():
     #gamestart here
-
-def range():
-    numrange_min = 1
-    numrange_max = 100
-    numrange_min = int(input("Please enter the min number range, default is 1"))
-    numrange_max = int(input("Please enter the max number range, default is 1000"))
+    pass
+def get_random():
+    mini = 1
+    maxi = 1000
+    mini = int(input('Enter the minimum range: '))
+    maxi = int(input('Enter the maximum range: '))
+    
+    random_int = random.randint(mini, maxi)
+    
+    return random_int
+    
+    
+>>>>>>> Stashed changes
 
 def exit():
     print("You are now exiting The Number Guessing Game:")
