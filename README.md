@@ -1,49 +1,28 @@
-function <main>:<()>
-argument:data type
-option : integer
+# Number Guessing Game
+Oliver, Bricen
+## <Number Guessing Game> Description
+This program takes a range 
 
-processing
-takes input from the user for the option
-calculates yes or no
+### <program_name> Flowchart
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  A-->D;
+  A-->E;
+```
 
-output/return
-prints the status of yes or no
-prints a total for 2
-returns.
+#### Function Diagrams
 
-
-
-function <newgame>:<()>
-argument:data type
-name : input
-range_change : input
-
-processing
-takes input from the user for their name
-saves their name
-takes input from the user for yes or no
-calculates yes or no
-
-
-
-output/return
-prints the status of yes or no
-prints a total for 2
-returns.
-
-
-
-
-
-
-function <exit>:<()>
-argument:data type
-
-
-processing
-none
-
-
-
-output/return
-prints the exiting message
+| `function name1`    |               |  author     |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `function name2`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
