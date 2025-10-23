@@ -27,12 +27,18 @@ def newgame():
     else: print("The range will be 1-1000")
     gamestart()
 
+<<<<<<< Updated upstream
 def gamestart():
     #gamestart here
     pass
 def get_random():
     mini = 1
     maxi = 1000
+=======
+def get_random():
+    numrange_min = 1
+    numrange_max = 1000
+>>>>>>> Stashed changes
     mini = int(input('Enter the minimum range: '))
     maxi = int(input('Enter the maximum range: '))
     
