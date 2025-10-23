@@ -27,11 +27,6 @@ def newgame():
 def gamestart():
     pass
 
-def range():
-    numrange_min == 1
-    numrange_max == 100
-    numrange_min == int(input("Please enter the min number range, default is 1"))
-    numrange_max == int(input("Please enter the max number range, default is 1000"))
 
 def exit():
     print("You are now exiting The Number Guessing Game:")
