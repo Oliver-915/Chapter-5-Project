@@ -22,13 +22,14 @@ def newgame():
     name = input("Please enter your name")
     print("Would you like to change the range? The default is 1-100")
     range_change = input("Yes or No?: ")
-    if range_change = Yes or yes:
+    if range_change == Yes or yes:
         range()
     else: print("The range will be 1-1000")
     gamestart()
 
 <<<<<<< Updated upstream
 def gamestart():
+<<<<<<< HEAD
     #gamestart here
     pass
 def get_random():
@@ -48,6 +49,10 @@ def get_random():
     
     
 >>>>>>> Stashed changes
+=======
+    pass
+
+>>>>>>> 71b3bbccbc31b91c07b2a99681c364e712a3470f
 
 def exit():
     print("You are now exiting The Number Guessing Game:")
