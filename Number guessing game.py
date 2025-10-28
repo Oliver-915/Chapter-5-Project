@@ -16,7 +16,9 @@ def menu():
     if option == 1:
         newgame()
     elif option == 2:
-        get_range_and_random()
+        mini = int(input('Enter the minimum range integer: ')) 
+        maxi = int(input('Enter the maximum range integer: '))
+        print(f'The range is now {mini} and {maxi}')
     elif option == 3:
         exit()
     else:
@@ -26,8 +28,8 @@ def menu():
 def newgame():
     p1 = get_name_p1()
     p2 = get_name_p2()
-    mini = get_mini()
-    maxi = get_maxi()
+    mini = int(input('Enter the minimum range integer: ')) 
+    maxi = int(input('Enter the maximum range integer: '))
     rand = get_random(mini, maxi)
     p1guess = -1
     p2guess = -1
@@ -36,7 +38,7 @@ def newgame():
     while p1guess != rand and p2guess != rand:
         p1guess = int(input(f'{p1} guess your number between {mini} and {maxi}: '))
         p2guess = int(input(f'{p2} guess your number between {mini} and {maxi}: '))
-        
+
         if p1guess == rand and p2guess == rand:
             print(f'You both won in {count} turn(s)')
             break
@@ -74,18 +76,13 @@ def get_name_p2():
     p2 = input('Enter player 2s name: ')
     return p2
 
-def get_mini():
-    mini = int(input('Enter the minimum range integer: '))
-    return mini
-
-def get_maxi():
-    maxi = int(input('Enter the maximum range integer: '))
-    return maxi
 
 def get_random(mini, maxi):
     rand = 1
     rand = random.randint(mini, maxi)
     return rand
+
+
     
 
 def exit():
