@@ -7,7 +7,7 @@ Takes two inputs for names and the generates a random number between in a range 
 ### <Number Guessing Game> Flowchart
 ```mermaid
 graph TD;
-  Main-->Main;
+  Main-->Menu;
   Main-->Get_random;
   Main-->Player_1;
   Main-->Player_2;
@@ -16,7 +16,7 @@ graph TD;
 
 #### Function Diagrams
 
-| `Main`    |               |  Oliver     |
+| `Menu`    |               |  Oliver     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for 1, 2, or 3  |              |
 | `time:integer`     | runs program  | outputs feedback, winner and turns             |
