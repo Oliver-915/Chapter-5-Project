@@ -11,7 +11,7 @@ def menu():
     print("Please choose one of the following")
     print("1 | Start New Game")
     print('2 | Choose Range')
-    print('2 | Exit')
+    print('3 | Exit')
     option = int(input("Chose a number 1, 2 or 3: "))
     if option == 1:
         newgame()
